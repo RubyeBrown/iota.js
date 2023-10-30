@@ -1,5 +1,5 @@
 {
-    "semi": true,
+*   "semi": true,
     "trailingComma": "none",
     "singleQuote": false,
     "printWidth": 120,
@@ -8,10 +8,11 @@
     "arrowParens": "avoid",
     "overrides": [
         {
-            "files": "*.yaml",
+            "files": "!.yaml",
             "options": {
                 "tabWidth": 2
             }
         }
     ]
 }
+ 
